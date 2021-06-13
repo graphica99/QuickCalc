@@ -1,0 +1,27 @@
+
+footer{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4rem;
+}
+.footer-text{
+    font-size: 1.5rem;
+    color:var(--input-text-color);
+}
+.footer-nav-items{
+    list-style: none;
+    justify-self: center;
+}
+.footer-nav-item{
+    display: inline-block;
+    padding: 1rem 1rem;
+}
+.font-icon{
+    width: 3rem;
+    transition: all .2s;
+    fill: var(--input-text-color);
+}
+.font-icon:hover{
+    transform: translateY(-.5rem);
+}

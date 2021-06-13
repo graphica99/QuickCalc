@@ -1,0 +1,22 @@
+:root {
+    // COLOR VARIABLES
+   --bg-color:#F4F6F8;
+   --text-color:#343232;
+   --gray: hsl(0, 0%, 75%);
+   --grayish-violet:hsl(257, 7%, 63%);
+   --very-dark-blue:hsl(255, 11%, 22%);
+   --very-dark-violet: hsl(260, 8%, 14%);
+   --input-bg-color:#fff;
+   --input-text-color:#171717;
+
+    //FONT VARIABLES
+    --font-primary: 'Lato', sans-serif;
+    --font-display: 'Open Sans', sans-serif;
+    --font-secondary:'Montserrat', sans-serif;
+
+    //BREAK POINT VARIABLES
+    --bp-mobile: 375px; 
+    --bp-desktop: 1440px; 
+};
+
+

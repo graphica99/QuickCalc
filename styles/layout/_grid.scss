@@ -1,0 +1,19 @@
+.main__grid-container{
+    display: grid;
+    background-color: var(--input-bg-color);
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.main__grid-container-input{
+    width: 100%;
+    // padding: 0 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.main__grid-container--buttons{
+    display: grid;
+    grid-template-rows:repeat(5 , 1fr);
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 1rem;
+}
