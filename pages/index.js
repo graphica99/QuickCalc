@@ -3,12 +3,20 @@ import Input from "../components/includes/Input/Input";
 
 const Index = () => {
   const [inputValue, setInputValue] = useState("");
-
+  const [disabled, setDisabled] = useState(true);
   const onInputChangeHandler = (e) => {
+    setDisabled(false);
     setInputValue(e.target.value);
   };
 
   const buttonClickHandler = (value) => {
+    console.log(Number(inputValue));
+    // if (Number(inputValue)) {
+    //   console.log("you entered an alphabet");
+    // }
+    //regex for number
+    //if alphabet typed more than three times then show and alert
+    setDisabled(false);
     setInputValue((prev) => prev + value);
   };
 
@@ -154,6 +162,7 @@ const Index = () => {
 
           <button
             className="main-grid-container-button equal"
+            disabled={disabled}
             onClick={() => onCalculateHandler()}
           >
             =
